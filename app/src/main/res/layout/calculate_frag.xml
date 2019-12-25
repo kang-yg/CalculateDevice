@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+    <RadioGroup
+            android:id="@+id/myTel_group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/myTel_skt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/SKT"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <RadioButton
+                android:id="@+id/myTel_lg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/LG"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <RadioButton
+                android:id="@+id/myTel_kt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/KT"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </RadioGroup>
+
+    <RadioGroup
+            android:id="@+id/device_group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/device_samsung"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Samsung"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+        <RadioButton
+                android:id="@+id/device_lg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Lg"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+        <RadioButton
+                android:id="@+id/device_apple"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Apple"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+    </RadioGroup>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/device_textview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="left|center"
+                android:text="@string/Device"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <Spinner
+                android:id="@+id/device_spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/callingplan_textview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="left|center"
+                android:text="@string/CallingPlan"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/callingplan_textview_month"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="left|center"
+                android:text="@string/PayForaMonth"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <EditText
+                android:id="@+id/callingplan_editText"
+                android:inputType="number"
+                android:hint="0"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"></EditText>
+
+        <TextView
+                android:id="@+id/callingplan_textview_won"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="left|center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <RadioGroup
+            android:id="@+id/supportfund_group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/publicsupportfund"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/PublicOfficialSupportFund"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <RadioButton
+                android:id="@+id/choicesupportfund"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/ChoiceSupportFund"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </RadioGroup>
+
+    <RadioGroup
+            android:id="@+id/period_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+        <RadioButton
+                android:id="@+id/shortperiod"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <RadioButton
+                android:id="@+id/longperiod"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Month"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </RadioGroup>
+
+    <LinearLayout
+            android:id="@+id/period_callingplan"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/period_callingplan_textview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/period_callingplan_textview_month"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="left|center"
+                android:text="@string/PayForaMonth"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <EditText
+                android:id="@+id/period_callingplan_editText"
+                android:inputType="number"
+                android:hint="0"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"></EditText>
+
+        <TextView
+                android:id="@+id/period_callingplan_textview_won"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="left|center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/storefund_textview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="left|center"
+                android:text="@string/StoreFund"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <EditText
+                android:id="@+id/storefund_edit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="right"
+                android:inputType="number"
+                android:hint="0"/>
+
+        <TextView
+                android:id="@+id/storefund_textview_won"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="left|center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Discount"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+            android:id="@+id/family_radio_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+        <CheckBox
+                android:id="@+id/family_checkbox_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Family10"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+        <CheckBox
+                android:id="@+id/family_checkbox_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Family30"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+        <CheckBox
+                android:id="@+id/family_checkbox_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Family50"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <CheckBox
+            android:id="@+id/welfare_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/Welfare"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+    <Button
+            android:id="@+id/calculate_submit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/calculate"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">CalculateSmartphonePrice</string>
+
+    <!-- ToolBar -->
+    <string name="menu01">Calculate</string>
+    <string name="menu02">MyList</string>
+
+    <!-- Telecom -->
+    <string name="SKT">SKT</string>
+    <string name="LG">LG U+</string>
+    <string name="KT">KT</string>
+
+    <!-- Device -->
+    <string name="Device">휴대폰 : </string>
+    <string name="CallingPlan">요금제 : </string>
+    <string name="Samsung">삼성전자</string>
+    <string name="Lg">LG전자</string>
+    <string name="Apple">Apple</string>
+
+    <!-- Contract -->
+    <string name="PublicOfficialSupportFund">공시지원금</string>
+    <string name="ChoiceSupportFund">선택약정</string>
+    <string name="Month">24개월 유지</string>
+    <string name="FourMonth">4개월 유지</string>
+    <string name="PeriodFourMonth">20개월 유지\n요금제</string>
+    <string name="SixMonth">6개월 유지</string>
+    <string name="PeriodSixMonth">18개월 유지\n요금제</string>
+
+    <!-- Store Fund -->
+    <string name="StoreFund">대리점 : </string>
+    <string name="Won"> 원</string>
+    <string name="PayForaMonth"> 월</string>
+
+    <!-- Discount -->
+    <string name="Discount">※[할인]※</string>
+    <string name="Family10">온가족 10%</string>
+    <string name="Family30">온가족 30%</string>
+    <string name="Family50">온가족 50%</string>
+    <string name="Welfare">복지할인 35%</string>
+
+    <!-- Calculate -->
+    <string name="calculate">계산하기</string>
+    <string name="CalculateToast">입력 하지 않은 부분이 있습니다.</string>
+
+
+    <!-- Result Activity -->
+    <string name="Estimate">견적서</string>
+    <string name="FactoryPrice">출고가 : </string>
+    <string name="ResultDiscount">※할인금액※</string>
+    <string name="FinalPrice">※최종금액※</string>
+    <string name="result_public">공시</string>
+    <string name="result_choice">선택</string>
+    <string name="result_FourMonth">4개월 :</string>
+    <string name="result_SixMonth">6개월 :</string>
+    <string name="Four_remainder">20개월 :</string>
+    <string name="Six_remainder">18개월 :</string>
+    <string name="Twentyfour">24개월 :</string>
+    <string name="result_family">가족할인 :</string>
+    <string name="result_welfare">복지할인 :</string>
+    <string name="result_fin_device">최종 단말 금액 :</string>
+    <string name="result_fin_two_year">2년 사용 금액 :</string>
+
+</resources>

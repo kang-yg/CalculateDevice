@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SamsungDeviceName">
+        <item>갤럭시S10(128GB)</item>
+        <item>갤럭시S10(512GB)</item>
+        <item>갤럭시S10+(128GB)</item>
+        <item>갤럭시노트10 5G(256GB)</item>
+        <item>갤럭시노트10+ 5G(256GB)</item>
+        <item>갤럭시노트10+ 5G(512GB)</item>
+    </string-array>
+
+    <string-array name="LGDeviceName">
+        <item>Q70</item>
+        <item>X2 2019</item>
+        <item>X6 2019</item>
+        <item>X4 2019</item>
+    </string-array>
+
+    <string-array name="SKTCallingPlan">
+        <item>6만원 미만</item>
+        <item>6만원 이상</item>
+        <item>7만원 이상</item>
+    </string-array>
+
+    <string-array name="LGallingPlan">
+        <item>44,000원 이하</item>
+        <item>49,000원 이상</item>
+        <item>55,000원 이상</item>
+        <item>59,000원 이상</item>
+        <item>65,890원 이상</item>
+        <item>69,000원 이상</item>
+    </string-array>
+
+    <string-array name="KTCallingPlan">
+        <item>6만원 미만</item>
+        <item>6만원 이상</item>
+        <item>7만원 이상</item>
+    </string-array>
+
+</resources>

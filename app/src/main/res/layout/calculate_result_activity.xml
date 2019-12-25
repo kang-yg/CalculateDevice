@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="13">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Estimate"
+            android:textColor="@android:color/black"
+            android:textSize="55dp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+        <TextView
+                android:id="@+id/result_telecom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/result_device"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/result_support"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/factoryprice_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/factoryprice_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="left|center"
+                android:text="@string/FactoryPrice"
+                android:textColor="@android:color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/factoryprice_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="right|center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/result_period_callingplan"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/result_period_callingplan_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="left|center"
+                android:textColor="@android:color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/result_period_callingplan_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="right|center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/result_period_callingplan_remainder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/result_period_callingplan_remainder_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="left|center"
+                android:textColor="@android:color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/result_period_callingplan_remainder_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="right|center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/result_period_callingplan_all"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/result_period_callingplan_all_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="left|center"
+                android:textColor="@android:color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/result_period_callingplan_all_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="right|center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/ResultDiscount"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+            android:id="@+id/rsesult_device_discount"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:visibility="gone">
+
+        <TextView
+                android:id="@+id/result_device_dicount_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center"
+                android:layout_weight="0.3"
+                android:textColor="@android:color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/result_device_dicount_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="right|center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"  />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/result_family"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/result_family_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center"
+                android:layout_weight="0.3"
+                android:textColor="@android:color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/result_family_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="right|center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"  />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/result_welfare"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/result_welfare_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:layout_gravity="left|center"
+                android:textColor="@android:color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/result_welfare_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="right|center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"  />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/FinalPrice"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+            android:id="@+id/result_final_device_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/result_final_devie_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="left|center"
+                android:textColor="@android:color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/result_final_devie_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:gravity="right|center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"  />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/result_final_twoyear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+        <TextView
+                android:id="@+id/result_final_twoyear_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:layout_weight="0.4"
+                android:textColor="@android:color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/result_final_twoyear_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="right|center"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"  />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/Won"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

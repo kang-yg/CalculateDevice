@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">CalculateSmartphonePrice</string>
+    <string name="app_name">하마(How much)</string>
 
     <!-- ToolBar -->
     <string name="menu01">Calculate</string>
     <string name="menu02">MyList</string>
+    <string name="app_name2">하·마(How much)</string>
 
     <!-- Telecom -->
     <string name="SKT">SKT</string>

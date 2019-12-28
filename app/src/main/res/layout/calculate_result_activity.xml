@@ -12,13 +12,14 @@
             android:gravity="center"
             android:text="@string/Estimate"
             android:textColor="@android:color/black"
-            android:textSize="55dp"
+            android:textSize="48dp"
             android:textStyle="bold" />
 
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/myblue"
             android:orientation="horizontal"
             android:weightSum="5">
 
@@ -58,6 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/mySkyBlue"
             android:orientation="horizontal"
             android:weightSum="1">
 
@@ -99,6 +101,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/mySkyBlue"
             android:orientation="horizontal"
             android:visibility="gone"
             android:weightSum="1">
@@ -139,6 +142,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/mySkyBlue"
             android:orientation="horizontal"
             android:visibility="gone"
             android:weightSum="1">
@@ -179,6 +183,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/mySkyBlue"
             android:orientation="horizontal"
             android:visibility="visible"
             android:weightSum="1">
@@ -218,6 +223,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/myblue"
             android:gravity="center"
             android:text="@string/ResultDiscount"
             android:textColor="@android:color/black"
@@ -229,6 +235,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/mySkyBlue"
             android:orientation="horizontal"
             android:weightSum="1"
             android:visibility="gone">
@@ -269,6 +276,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/mySkyBlue"
             android:orientation="horizontal"
             android:visibility="gone"
             android:weightSum="1">
@@ -309,6 +317,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/mySkyBlue"
             android:orientation="horizontal"
             android:visibility="gone"
             android:weightSum="1">
@@ -348,6 +357,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/myblue"
             android:gravity="center"
             android:text="@string/FinalPrice"
             android:textColor="@android:color/black"
@@ -359,6 +369,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/mySkyBlue"
             android:orientation="horizontal"
             android:weightSum="1">
 
@@ -398,6 +409,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/mySkyBlue"
             android:orientation="horizontal"
             android:weightSum="1">
 

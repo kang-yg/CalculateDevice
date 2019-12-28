@@ -5,18 +5,15 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import com.google.firebase.firestore.FirebaseFirestore
-import kotlinx.android.synthetic.main.activity_main.*
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
 
+//        toolbar.title = getString(R.string.app_name)
+//        setSupportActionBar(toolbar)
 
-        toolbar.title = getString(R.string.menu01)
-        setSupportActionBar(toolbar)
 
         supportFragmentManager.beginTransaction()
             .replace(R.id.main_framelayout, CalculateFragment()).commit()

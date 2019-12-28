@@ -12,8 +12,9 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/myTel_skt"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -21,8 +22,9 @@
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/myTel_lg"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -30,8 +32,9 @@
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/myTel_kt"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -47,8 +50,9 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/device_samsung"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -56,8 +60,9 @@
                 android:textSize="27dp"
                 android:textStyle="bold" />
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/device_lg"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -65,8 +70,9 @@
                 android:textSize="27dp"
                 android:textStyle="bold" />
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/device_apple"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -129,14 +135,15 @@
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
-        <EditText
+        <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/callingplan_editText"
+                android:backgroundTint="@color/myblue"
                 android:inputType="number"
                 android:hint="0"
                 android:gravity="right"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.5"></EditText>
+                android:layout_weight="0.5"></androidx.appcompat.widget.AppCompatEditText>
 
         <TextView
                 android:id="@+id/callingplan_textview_won"
@@ -157,8 +164,9 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/publicsupportfund"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -166,8 +174,9 @@
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/choicesupportfund"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -184,16 +193,18 @@
             android:orientation="horizontal"
             android:visibility="gone">
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/shortperiod"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/longperiod"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -232,14 +243,15 @@
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
-        <EditText
+        <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/period_callingplan_editText"
+                android:backgroundTint="@color/myblue"
                 android:inputType="number"
                 android:hint="0"
                 android:gravity="right"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.5"></EditText>
+                android:layout_weight="0.5"></androidx.appcompat.widget.AppCompatEditText>
 
         <TextView
                 android:id="@+id/period_callingplan_textview_won"
@@ -271,14 +283,15 @@
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
-        <EditText
+        <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/storefund_edit"
+                android:backgroundTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
                 android:gravity="right"
                 android:inputType="number"
-                android:hint="0"/>
+                android:hint="0"></androidx.appcompat.widget.AppCompatEditText>
 
         <TextView
                 android:id="@+id/storefund_textview_won"
@@ -314,6 +327,7 @@
 
         <CheckBox
                 android:id="@+id/family_checkbox_1"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -323,6 +337,7 @@
 
         <CheckBox
                 android:id="@+id/family_checkbox_2"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -332,6 +347,7 @@
 
         <CheckBox
                 android:id="@+id/family_checkbox_3"
+                android:buttonTint="@color/myblue"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -343,6 +359,7 @@
 
     <CheckBox
             android:id="@+id/welfare_checkbox"
+            android:buttonTint="@color/myblue"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -352,6 +369,8 @@
 
     <Button
             android:id="@+id/calculate_submit"
+            android:background="@drawable/hippo_back"
+            android:textColor="#FFFFFF"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
